@@ -1,0 +1,24 @@
+======================================================================
+LABORATÓRIO PRÁTICO DE CRIPTOGRAFIA E ESTEGANOGRAFIA
+======================================================================
+
+[1] HASHING + SALT
+Usuário: aluno
+Salt: 1vWGVvLiQKHnom5UnrXE9w==
+Hash: PGSWxS5hILrhDm5qHpYQlLx+GgSS8zxI4zG1JnIQ4tM=
+Senha correta: True
+Senha incorreta: False
+
+[2] AES-256-GCM
+Texto original: Conta: 12345 | Saldo: R$ 15.750,80 | Transação: R$ 850,00
+Texto cifrado (Base64): GpSh7jOfygrl95gK+DlMxYewlk8gqMZ7DLKtFBj6iB9HYJlU4XkZ0x+508Ve1HR+LOkLeaHtpSaB/FD1wpJd54JTJs66BuD/OMEg3Iww9TpGjS4D9mqL
+Texto decifrado: Conta: 12345 | Saldo: R$ 15.750,80 | Transação: R$ 850,00
+Integridade: True
+
+[3] ESTEGANOGRAFIA LSB
+Mensagem original: Informação confidencial: trabalho acadêmico de segurança.
+Mensagem extraída: Informação confidencial: trabalho acadêmico de segurança.
+Extração correta: True
+
+Arquivos gerados:
+/mnt/data/laboratorio_criptografia_esteganografia/images/imagem_esteganografada.png
